@@ -1,0 +1,22 @@
+{
+  "name": "FSMeeting_ios",
+  "version": "0.1.0",
+  "summary": "A short description of FSMeeting_ios.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhongxy/FSMeeting_ios",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhongxy": "zhongxy@hst.com"
+  },
+  "source": {
+    "git": "https://github.com/zhongxy/FSMeeting_ios.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "FSMeeting_ios/Classes/**/*"
+}

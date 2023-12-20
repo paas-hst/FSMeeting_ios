@@ -1,0 +1,16 @@
+PODS:
+  - FSMeeting_ios (0.1.0)
+
+DEPENDENCIES:
+  - FSMeeting_ios (from `../`)
+
+EXTERNAL SOURCES:
+  FSMeeting_ios:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FSMeeting_ios: eb0abd621293400fcf432b683761399b0150fc0b
+
+PODFILE CHECKSUM: 533e8e69c63a4897241a89ab5740d4b3ebf24ed5
+
+COCOAPODS: 1.14.3

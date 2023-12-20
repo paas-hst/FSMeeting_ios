@@ -1,0 +1,1020 @@
+/* 
+  FSMeeting.strings
+  FSMeeting
+
+  Created by farben on 2022/1/10.
+  
+*/
+"registerSuccess_" = "恭喜，您已经注册了好视通云会议";
+"belowProductInfo_" = "";
+"tryProduct_" = "产品信息";
+"tryDate_" = "使用期限";
+"tryMaxUser_" = "产品方数";
+"tryStart_" = "立即体验";
+"days_" = "天";
+"registerTips_"="参加培训或者加入其他人的会议吗？您不需要注册账号，可以用会议号加入。\n成功注册账号后，系统将为您创建一个企业，您是企业的管理员。";
+"notDeleteRoom"="该会议室无法被删除";
+"applyTrial_"="注册账号";
+"thirdLoginTips_"    = "您是否有好视通账号？如果有，请选择绑定好视通账号。如果没有，请注册并绑定好视通账号。";
+"CompanyName"="公司名称";
+"NickName"="姓名";
+//------------------------------------------
+
+//sdk
+"copyInfoSuccessfully" = "复制成功";
+
+
+//<OEM>
+"ProductName" = "好视通云会议";
+"CopyRight" = "©2016 深圳齐心好视通云计算有限公司";
+"CopyRightURL" = "www.hst.com?fm";
+"MainTitle" = "好视通云会议";
+"HotLine" = "400-1699-666";
+"ServiceLink" = "http://www.hst.com/online_kefu.htm?fm";
+"ManualFile" = "";
+"Version" = "3.10.6";
+"AboutInfo" = "& ";
+"DisplayServerAddress"="1";
+
+"v2_AccountLogin"="用户名登录";
+"v2_ConfNumberLogin"="会议室号登录";
+"v2_NetworkSetting"="网络设置";
+"v2_RoomListRoomUserCount"="%d/%d";
+"v2_RoomListRoomUserCountIPAD"="与会人数 %d/%d";
+"v2_Exit"="退出";
+"v2_Leave"="离开";
+"v2_ConfRoomID"="会议室号";
+"v2_PleaseEnterTheMeetingID"="请输入会议室号";
+"v2_NickName"="昵    称";
+"v2_LoginMode"="登录模式";
+"v2_PleaseEnterYourNickname"="请输入您的昵称";
+"v2_StandardMode"="标准模式";
+"v2_MergeMode"="合成模式";
+"v2_ConfBottomTextStr"="会议名称:%@    参与人数:%d人    我的角色:%@";
+"v2_UserNameFilter"="搜索";
+"v2_GroupNameFilter"="在此输入组名进行筛选";
+"v2_ConfIDNotEmpty"="会议室号不能为空";
+"v2_NickNameNotEmpty"="用户昵称不能为空";
+"v2_SelectServerAddr"="选择服务器地址";
+"v2_GroupRoomUserCount"="%d人";
+"v2_Offline"="离线";
+"v2_DefaultServer"="默认服务器";
+"v2_InputServerAddr"="请输入登录服务器地址和端口。(例如: 192.168.1.10:1089)";
+"v2_VoiceMode"="语音模式";
+"v2_VoiceModeHint"="在语音模式下，将不接收和广播视频、不能使用电子白板、屏幕共享，可节省流量，延迟电池的使用时间。";
+"v2_PleaseInputServerAddr"="自定义登录服务器地址和端口";
+"v2_ShouldNotEnterGroup"="不允许加入该分组会议。";
+"v2_ShouldNotLeaveGroup"="不允许离开该分组会议。";
+"v2_Logining"="正在登录...";
+"v2_FetchRoomList"="正在获取会议室列表...";
+"v2_LoginingRoom"="正在登入会议室...";
+"v2_RoomIsLock"="会议室已被锁定，正在等待管理员允许...";
+"v2_Presenter"="主持人";
+"v2_waiting"="等待主持人权...";
+"v2_SelectMediaId"="选择视频源";
+"v2_Open"="打开";
+"v2_Close"="关闭";
+"v2_InGroupMeetingsCanNotReceiveVideo"="用户在分组会议中，不能接收该视频。";
+"v2_AbnormalExit"="您退出了会议室\"%@\"，是否立即进入？";
+"v2_WrongPwdPleaseLgoinAgain"="会议室密码错误，请重新登录";
+
+//会前
+"start" = "开始体验";
+"account"="账号";
+"joinMeeting" = "加入会议";
+"search" = "搜索";
+"JoinViaRoomID" = "通过会议号加入会议";
+"RoomID" = "会议号";
+"RoomIDInvitation" = "会议室号/邀请码";
+"RoomPassword" = "密码，无密码可不填写";
+"YourNickName" = "您的昵称";
+"Join" = "加入";
+"Meeting" = "会议";
+"noAccountTip" = "没有好视通账号，加入会议";
+"haveAccount" = "有好视通账号？";
+"noMeetingTip" = "看上去，您还没有会议。";
+"copyright" = "版权所有";
+"companyInfo" = "深圳齐心好视通云计算有限公司";
+"onlyWifi" = "只在无线网络时";
+"Wifi&WWAN" = "无线网络和移动数据网络时";
+"NoRecive" = "不接收";
+"ReciveVideo" = "开会时接收视频";
+"CallSetting" = "通话设置";
+"Logout" = "退出登录";
+"LoginAccount" = "账号登录";
+"LoginVerificationCode" = "验证码登录";
+"GetVerificationCode" = "获取验证码";
+"RetryVerificationCode" = "重新获取（%@s）";
+"InputVerificationCodeTip" = "请输入验证码";
+"CodeSendFailed" = "验证码发送失败";
+"CodeSendSuccess" = "验证码发送成功";
+"GiveUpRegister" = "放弃";
+"MobileNotRegistered" = "您手机号当前未注册，是否现在注册?";
+"MobileNotBind" = "手机号码未绑定，请重新绑定后再使用";
+"publicUserHolder" = "用户名/邮箱/手机号";
+"privateUserHolder" = "用户名";
+"login" = "登录";
+"WWANTip" = "流量提醒";
+"WWANTipMessage" = "您当前使用的是2G/3G/4G网络，使用视频会议功能会消耗您的流量，流量产生的资费由运营商收取";
+"keepUse" = "继续使用";
+"pwdLengthTip" = "密码长度必须为4~32位";
+"confirm" = "确认";
+"noInternetTip" = "您当前没有网络连接。请到\"设置-无线网络\"或\"设置-蜂窝移动网络\"中检查您的网络设置";
+
+"otherLogin" = "使用微信或QQ登录";
+"buyFsmeeting" = "要为您的企业购买好视通？";
+"applyTrial" = "申请企业试用账号";
+
+"thirdLoginTips"    = "您是否有好视通账号？如果有，请选择绑定好视通账号。如果您要为您的企业购买好视通，请选择申请企业试用账号。";
+"bindingAccount"    = "绑定好视通账号";
+"binding"          = "绑定";
+"forgetpwd"        = "忘记账号或密码?";
+"bindingSuccess"   = "绑定成功";
+"iknow"             = "我知道了";
+"bindingWechatSuccessTips" = "您的微信账号和好视通账号已经绑定成功，您可以使用微信账号登录好视通的服务。";
+"bindingQQSuccessTips" = "您的QQ账号和好视通账号已经绑定成功，您可以使用QQ账号登录好视通的服务。";
+"loginSuccess"      = "登录成功";
+"errorlogin"        = "您的帐号或密码错误";
+"bind"              = "正在绑定...";
+"feedback"          = "反馈";
+"send"              = "发送";
+"questions"         = "请输入您的意见或建议(必填)";
+"contactMode"       = "手机号码或QQ";
+"feedbackEmpty"     = "反馈意见不能为空";
+"formatIsIncorrect" = "手机号码或QQ格式不正确，请重新输入";
+
+"sending"           = "正在发送";
+"send fail"         = "反馈发送失败，请重试。";
+"send success"      = "反馈发送成功，我们会尽快处理";
+"retry"             = "重试";
+
+"LogUploadedSuccessfully" = "日志上传成功";
+"LogUploadedFail" = "上传失败，请重试";
+
+
+"RequestEntranceConfigFailed" = "连接会议服务器失败";
+"FetchServerAddrFailed" = "连接资源服务器失败";
+"QueryUserInfoFailed" = "连接资源服务器失败";
+"CheckUpdateFailed" = "连接资源服务器失败";
+
+/********************************私有云入口********************************/
+
+"loginServer" = "登录服务器";
+"privateServerStateNO" = "未开启";
+"privateServerStateYES" = "已开启";
+"loginPrivateServer" = "登录私有云服务器";
+"addressAndDomainName" = "服务器地址或域名";
+"isInvalidHint" = "请输入合法的服务器地址或端口号";
+"noServerHistory" = "没有服务器历史记录";
+"UnsupportedServerVersion" = "当前服务器版本不支持使用该版本客户端，请下载指定客户端继续使用";
+"JumpAppStore" = "使用指定客户端";
+"ServerConnectFailed" = "连接服务器失败，或客户端版本与服务器不匹配";
+
+/*****************************************************************/
+
+"Register" = "注册";
+"registering" = "正在注册";
+"mobileNum" = "手机号";
+"getPwd" = "获取密码";
+"getPwdSuccess" = "密码已发送至您的手机";
+"reget" = "重新获取";
+"registerSuccess" = "恭喜，您已经注册了好视通云会议";
+"belowProductInfo" = "以下是您的试用产品信息。";
+"tryProduct" = "试用产品";
+"tryDate" = "试用时间";
+"tryMaxUser" = "最多试用人数";
+"tryStart" = "开始试用";
+"days" = "天";
+"InputPhoneNumberTip" = "请输入手机号码";
+"registerTips" = "参加培训或者加入其他人的会议吗？您不需要注册账号，可以用会议号加入。\n 申请企业试用账号后，系统将为您创建一个企业，您是企业的管理员。";
+"keepRegister" = "我知道了，继续注册";
+"noRight" = "无权限";
+"change" = "修改";
+"changeSuccess" = "修改成功";
+"authorizeUser" = "授权用户登录";
+"registerUser" = "注册用户登录";
+"anonymousUser" = "匿名用户登录";
+"createSuccess" = "创建成功";
+"allowChairman" = "允许成为管理员";
+"chairPwd" = "管理员密码";
+"loginType" = "登录类型";
+"allowLoginPwd" = "启用会议密码";
+"loginPwd" = "会议密码";
+"userPoints" = "用户数目";
+"BaseInfoSet" = "基本信息设置";
+"PasswordSet" = "密码设置";
+"EnterRoomName" = "输入您的会议室名称";
+"EnterMaxUserCount" = "输入会议室最大用户数";
+"EnterChairPassword" = "请输入管理员密码";
+"CreateMeetingRoom" = "创建会议室";
+"EditMeetingRoom" = "编辑会议室";
+"Save" = "保存";
+"teleConsult" = "电话咨询";
+"pull2load" = "上拉加载更多会议";
+"release2update" = "松开手就能刷新";
+"updating" = "正在刷新";
+"updated" = "刷新完成";
+"pull2update" = "下拉刷新会议";
+"loadingmeetings" = "正在加载会议";
+"loaded" = "加载完成";
+"allloaded" = "所有会议加载完毕";
+"nomore" = "真的没有了";
+"sure2delete" = "确认删除？";
+"delete" = "删除";
+"canJoin" = "可参与的";
+"myCreate" = "我创建的";
+"searchCanJoin" = "搜索可参与的会议";
+"searchmyCreate" = "搜索我创建的会议";
+"newFeature_title0" = "文档接收投票";
+"newFeature_title1" = "音视频抗丢包能力提升";
+"newFeature_title2" = "一键关闭会中声音";
+"newFeature_detaile0" = "支持公有云，私有云两种登录方式";
+"newFeature_detaile1" = "用户可自由切换前后摄像头";
+"loadingMeetingInfo" = "正在加载会议室信息";
+"create" = "创建";
+"invite" = "邀请";
+"deleted" = "已删除";
+"creating" = "正在创建";
+"joinTheMeeting" = "加入会议 | 好视通云会议";
+"clickAgree" = "点击注册即表示您同意";
+"hstAgreement" = "《好视通注册协议》";
+"query_user_right_Failed" = "查询用户权限失败";
+
+/* ------------------------------------------------ ----------------- */
+
+"Everyone"="所有人";
+"LocalUserSendMessageTitle"="%@ 我对%@说";
+"RemoteUserSendMessageTitle"="%@对%@说 %@";
+"You"="你";
+"ChatMe"="我";
+"AudioAndVideoSettings"="音视频设置";
+"Settings"="设置";
+"Back"="返回";
+"Close"="关闭";
+"Cancel"="取消";
+"Ok"="确定";
+"Submit"="确定";
+"ConfirmExit"="确认退出";
+"FPS"="%d帧每秒";
+"AudioSettings"="音频设置";
+"VideoSettings"="视频设置";
+"ConfSettings"="会议室设置";
+"CloseLocalVideo"="关闭本地视频";
+"OpenLocalVideo"="打开本地视频";
+"ConfInfo"="会议信息";
+"ConfName"="会议名称";
+"ConfNumberOfPeople"="会议人数";
+"ConfCreateBy"="创建用户";
+"UserRights"="用户权限";
+"UserRightObservers"="参会人";
+"UserRightHost"="管理员";
+"UserRightParticipant"="参会人";
+"ExitGroupRoomConfirm"="确认退出当前进入的分组会议？";
+"CloseRemoteVideo"="关闭远程视频";
+"CloseRemoteAudio"="关闭远程音频";
+"OpenRemoteVideo"="打开远程视频";
+"OpenRemoteAudio"="打开远程音频";
+
+"CloseLocalAudio"="关闭本地音频";
+"OpenLocalAudio"="打开本地音频";
+
+"SystemSetting"="系统设置";
+"ConfUsers"="与会用户";
+"ExitRoom"="退出会议室";
+"EmptyResult"="当前搜索结果0条记录";
+"ConfRoom"="会议室";
+"EnteringGroupConf"="正在进入分组会议";
+"AlertViewTitleInfo"="提示";
+"UserHasKicked"="您已经被请出会议室。";
+"ConfRoomIsClosed" = "对不起，会议室已经被关闭！";
+"ConfLogin"="登录会议室";
+"ConfSetting"="会议室设置";
+"ShowOfflineUsers"="显示离线用户";
+"ConfRoomUsers"="参会人";
+"GroupConf"="分组会议";
+"LoginPassword"="密码";
+"ConfirmExitLogin"="确认退出登录？";
+"AllParticipant"="所有参与者";
+"AllPeople"="所有人";
+"Today"="今天";
+"ConfirmExitGroupConf"="确认退出当前进入的分组会议？";
+"ConfirmExitConf"="确认要退出会议室？";
+"AVNotReady"="无法使用音视频。";
+"GroupConfLoginFailed"="分组会议登录失败，请稍后重试。";
+"GroupFull"="分组会议人满，请稍后重试。";
+"GroupLoginTimeout"="分组会议登录超时，请稍后重试。";
+"GroupAlreadyLogin"="当前用户已登入分组会议。";
+"ServerAddressEmptyMsg"="请填写服务器地址。";
+"UserNameEmptyMsg"="请填写登录用户名。";
+"PasswordEmptyMsg"="请填写登录密码。";
+"LoginTimeoutMsg"="登录超时，请稍后重试。";
+"NetworkFailedMsg"="网络连接失败，请检查网络设置";
+"NetworkNoExist"="网络连接不可用，请检查网络设置。";
+"LoginUsernameOrPasswordErrorMsg"="用户名或密码错误，请检查后并重新输入。";
+"HTTPSInvalidError"="系统时间错误导致您无法正常登录，请校正系统时间后重试";
+"LoginFailedMsg"="登录失败，请稍后重试。";
+"RoomLoginFailedMsg"="会议室登录失败，请稍后重试。";
+"RoomFullMsg"="会议室人满，请稍后重试。";
+"RoomLoginTimeoutMsg"="会议室登录超时，请稍后重试。";
+"NetworkAbnormalMsg"="当前网络异常。";
+"RoomHasAlreadyLoginMsg"="当前用户已登入会议室。";
+"ConfRoomListFailedMsg"="获取会议室列表失败，请稍后重试。";
+"EnterFullScreen"="全屏";
+"CloseFullScreen"="退出全屏";
+"NoServerListHint"="没有历史服务器列表。";
+"OnGroupEnterMainRoomHint"="您已被拉回主会议室。";
+"BackMainConf"="正在返回主会议室";
+"ModifyMediaMixParams"="调节媒体合成参数";
+"KeyFrameIntervalText"="%d秒";
+"UserInGroupConfCellText"="%@(分组会议中)";
+"RoomListRoomUserCount"="与会人数 %d/%d";
+"InputConfPassword"="请输入会议室密码";
+"SelectConf"="选择会议室";
+"Login"="登录";
+"ServerAddr"="登录服务器";
+"Username"="用户名";
+"PleaseEnterYourUsername"="请输入用户名";
+"Password"="密码";
+"PleaseEnterYourPassword"="请输入密码";
+"ConfCodeLogin"="会议号登录";
+"MeetingPassword"="会议室密码";
+"RememberPassword"="记住密码";
+"WrongMeetingPassword"="会议室密码错误，请重新输入。";
+"EnterTheMeetingPasswordToAttendTheMeeting"="需要输入会议室密码才能进入会议室。";
+
+"EnterTheAdministratorPassword" = "输入管理员密码";
+"ApplyForAdministrator" = "申请管理员";
+"GiveUpAdmin" = "放弃管理员";
+"TheAdministratorPasswordWrong" = "管理员密码错误！";
+"MeetingDontAllowAdministrtor" = "当前会议室不允许申请管理员！";
+"GiveUpAdministratorRights" = "您确定要放弃管理员权限？";
+"YouAreNoLongerAnAdministrator" = "您已不再是管理员";
+
+"BeautyLevel" = "美颜等级：+";
+
+"AudioEncoder"="音频编码器";
+"VideoCaptureSize"="分辨率";
+"FrameRate"="帧速率";
+"Bitrate"="视频码流";
+"MessageNotify"="消息声音通知";
+"DisplayOfflineUsers"="显示离线用户";
+"ModifyMediaMixParameters"="调节媒体合成参数";
+
+"VideoSize"="视频大小";
+"VideoEncoder"="视频编码器";
+"VideoFPS"="帧速率";
+"KeyFrame"="关键帧间隔";
+"VideoBitrate"="视频码流";
+
+"NetworkReconnecting"="正在重连...";
+"done"="完成";
+"Mark"="标注";
+"MarkUnEnableHint" = "当前未共享白板或文档，标注功能不可用";
+"MediaMarkUnEnableHint" = "正在共享多媒体，标注功能不可用";
+"VNCMarkUnEnableHint" = "正在共享桌面，标注功能不可用";
+"VoteMarkUnableHint" = "正在投票，标注功能不可用";
+"Switch"="切换";
+"SwitchEmpty" = "会议室暂无共享内容";
+"ShareEmpty" = "暂无共享数据";
+"createwb"="新建电子白板";
+"WhiteBoardName" = "电子白板";
+"openingdocument"="正在打开白板文档";
+"AnErrorInUploadingDocument"="上传文档时发生错误";
+"AnErrorInDownloadingDocument"="下载文档时发生错误";
+"pics"="从相册选择";
+"takephoto"="拍照";
+"wbnotmorethanfive"="您打开的文档数量已超过限制，请先关闭一些已打开的文档！";
+"askformainspeakerMessage"="您需要获得主持人权后，才能允许该项操作，是否立即申请主持人权？";
+"waitformainspeakerright"="主持人申请中";
+"obtainthemainspeakerright"="您已成为主持人";
+"noapplicationforpermission"  = "参会人无权限";
+"abandonedyourpresenterrequest"="您已放弃主持人申请";
+"abandonedtobepresenter"="您已放弃主持人";
+"WBShare"="白板文档";
+"GenerShare"="网络硬盘";
+"UpOneLevel"="返回上一层";
+"AppCannotAccessYourCamera"="应用无法访问您的相机，请在设置中开启此权限";
+"AppCannotAccessYourPhotos"="应用无法访问您的照片，请在设置中开启此权限";
+"noDocumentRecord" = "当前无文档记录，如需共享文档，请从PC端优先上传文档";
+"SaveWhiteBoardSuccess" = "保存白板成功";
+"SaveWhiteBoardFailed" = "保存白板失败";
+"WhetherSaveWB" = "是否需要保存";
+
+"havenorighttovote"="主持人开启电子投票，此版本暂不支持";
+"screensharing"="屏幕共享中...";
+"pauseScreenShare" = "主持人已暂停播放多媒体";
+"cannotreceiveyourownvideo"="不能接收自己的视频";
+"About"="关于";
+"customerservicehotline"="客服热线";
+"noSIMCard" = "未安装SIM卡";
+"noSIMOk" = "好";
+"appslogan"="无间协同，智慧共享！";
+
+"inthegroupmeeting"="用户正在分组会议";
+"openvideo"="查看视频";
+"closevideo"="关闭视频";
+"picturewrongfromat"="主持人使用的文档转换格式不是图片格式，手机上无法显示。";
+"meetingDataArea_UnSupportWhiteBoard_PPT" = "暂时不支持PPT动画电子白板";
+"mediasharing" = "接收多媒体文件中...";
+"mediasharingTitle" = "多媒体共享";
+"screensharingTitle" = "屏幕共享";
+"broadcastingVideo" = "正在广播视频，不支持本地查看";
+
+"selectedCamera" = "选择摄像头";
+"selectedShare" = "选择共享";
+
+"share_newWhiteBoard"="空白白板";
+"share_document"="文档";
+"share_pictures"="照片";
+"share_photos"="拍照";
+
+"front-facing camera"      =  "前置摄像头";
+"the rear camera"      =  "后置摄像头";
+"close the video"      =  "关闭视频";
+"open the video"       =  "打开视频";
+"choose the camera"    =  "选取摄像头";
+"localDisplay"         =  "本地查看";
+"broadcastVideo"       =  "广播视频";
+
+"disable camera"      =  "禁用摄像头";
+"enable camera"      =  "启用摄像头";
+"disable microphone"      =  "禁用麦克风";
+"enable microphone"      =  "启用麦克风";
+"speak" = "发言";
+"mute" = "放弃发言";
+"microphoneSetting" = "麦克风设置";
+"Disabled" = "已禁用";
+"CancelRequest" = "放弃申请";
+
+"choose the share"     =  "选取共享";
+
+"go to settings"       =   "去设置";
+"cannot assess to mic"     =   "应用无法访问您的麦克风，请在设置中开启此权限";
+
+"apply speaker"        =   "我要主持人";
+"speaker"              =    "扬声器";
+"meeting info"         =    "会议信息";
+
+"layout_data"="数据";
+"layout_oneSplit"="一分屏";
+"layout_fourSplit"="四分屏";
+"layout_sixSplit"="六分屏";
+"layout_nineSplit"="九分屏";
+
+//视频信息
+"close media"       =   "关闭音视频";
+"open media"        =   "打开音视频";
+"open video"        =   "打开视频";
+
+"open audio"        =   "打开音频";
+"close audio"       =   "关闭音频";
+"close video"       =   "关闭视频";
+
+"award presenter"   =   "授予主持人";
+"Apply presenter"   =   "申请成为主持人";
+"Change nickname"   =   "修改昵称";
+"Me"                =   "(我)";
+"nickname empty"    =   "昵称不能为空，请重新输入";
+"cancle presenter"  =   "取消主持人";
+"switch to large"   =   "切换为大视频";
+"full screen"       =   "全屏";
+"exit full screen"  =   "退出全屏";
+
+//会议信息
+"meetinginfo"="会议信息";
+"meetingroomtheme"="会议主题";
+"meetingroomid"="会议室号";
+"onlinenum"="在线人数";
+"myrole"="我的角色";
+"QueryMeetingInfoTimeOut" = "获取会议信息失败";
+"CreateRoomTimeOut" = "创建超时，请稍后重试";
+"EditRoomTimeOut" = "编辑请求超时，请稍后重试";
+
+
+//聊天
+"ChatRoom"="聊天";
+"SelectChatUser"="选择聊天对象";
+"ChatWithEveryone"="与“所有人”聊天中";
+"ChatWithSomeone"="和%@聊天中";
+"CannotMessagetoSelectedUser"="禁止向该用户发送消息";
+"ChatTextEmpty"="文字发送内容不能为空，请重新输入。";
+"Send"="发送";
+"ForbitToChat"="禁止聊天";
+"CloseChat"="已关闭聊天功能";
+"CloseGroupChat"="已关闭群聊功能";
+"ClosePrivateChat" = "已关闭私聊功能";
+"Attendees"="参会人";
+"BanGroupChat" = "已被禁止发送群聊消息";
+
+//更多
+"More"="更多";
+"Presenter"="申请主持人";
+"Applying"="申请主持人中";
+"QuitPresent"="放弃主持人";
+
+// 不接收
+"NetworkConfig_NeverHint" = "当前规则为\“不接收视频\”，请在设置中更改规则";
+
+// 网络切换系列提示
+"WiFiAndWWANEnterWithWWAN" = "非无线网络环境下，接收视频可能消耗较多流量";
+"WiFi&WWANSwitchToWWAN" = "已处于非无线网络环境，接收视频会消耗您的流量";
+"WiFiEnterWithWWAN" = "非无线网络网络下不接收视频，请在设置中更改规则";
+"WiFiSwitchToWWAN" = "已处于非无线网络环境下，是否接收视频";
+"WWANSwithToWiFi" = "已连接无线网络，即将开启视频";
+"RecieveVideo" = "接收视频";
+"RecieveAudioOnly" = "仅接收音频";
+
+// 工具栏
+"ToolOpen"  = "打开";
+"ToolClose"  = "关闭";
+"ToolWaiting"  = "举手";
+"ToolPutDown"  = "放下";
+
+"Audio" = "音频";
+"Video" = "视频";
+"Share" = "共享";
+"Attender" = "参会人";
+"Chat" = "聊天";
+"Speaking" = "您正在发言";
+"ApplyToSpeak" = "您正在申请发言";
+"GiveUpSpeak" = "您已放弃发言";
+"GiveUpApply" = "您已放弃申请";
+"ApplyToBroadcastVideo" = "您正在申请广播视频";
+
+//升级
+"forceUpdate" = "为强制更新版本，更新完成后才能继续参会";
+"discoverNewVersion" = "发现新版本";
+"suggestUpdate" = ",建议立即升级";
+"versionUpdate" = "版本更新";
+"immediatelyUpdate" = "立即更新";
+"later" = "稍后提醒";
+"abandon" = "放弃";
+
+// 签到
+"SignInAlertHint" = "请点击签到按钮完成点名…";
+"SignInAlertBtnTitle" = "签到";
+"SignInNotificationContentTitle" = "主持人正在点名";
+"SignInNotificationContentBody" = "请回到会中点击签到按钮完成点名";
+"SignInOpen" = "打开";
+"SignedSuccessfully" = "签到成功";
+
+// 电子投票
+"voteMulti-Choice" = "多选";
+"voteVoting" = "投票";
+"voteQuit" = "弃权";
+"voteRegisteredVote" = "记名投票";
+"voteAnonymityVote" = "匿名投票";
+"voteEnded" = "已结束";
+"voteValidChoice" = "您暂未选择有效选项";
+"voteinit" = "发起了投票";
+
+// 蓝牙
+"FindWriteBoard" = "发现我的手写板设备";
+"MyDevice" = "我的设备";
+"NotFoundDevice" = "无发现设备";
+"DeviceRefresh" = "刷新";
+"ConnectedDevice" = "已连接设备";
+"PairedDevice" = "已配对设备";
+"Connected" = "已连接";
+"DeviceInfos" = "设备详情";
+"DeviceName" = "设备名称";
+"MacAddress" = "Mac 地址";
+"BatteryPower" = "电池电量";
+"BatteryPowerHint" = "电池电量显示低时，笔/板需同时充电";
+"ModifyDeviceName" = "修改名称";
+"DisconnectDevice" = "断开连接";
+"EffectiveHint" = "设备断电重启后生效";
+"TimeOutHint" = "连接超时，请重试";
+"BluetoothDisconnected" = "蓝牙已断开";
+"BluetoothNotTurnedOn" = "应用无法访问您的蓝牙，请在设置中开启此权限";
+"Charging" = "充电中";
+"CompleteCharging" = "充电完成";
+"DeviceConnecting" = "已有设备正在连接中...";
+"DeviceCanNotMark" = "手写板标注不支持白板旋转，请恢复原始位置后尝试";
+
+//电话会议
+"phoneCallMeeting" = "电话会议";
+"phoneCallErrorMessage" = "应用无法访问您的通讯录，请在设置中开启此权限";
+"phoneCallSyncLocal" = "同步手机通讯录";
+"phoneCellSyncLocalMessage" = "正在同步手机通讯录...";
+"phoneCallAddContact" = "添加联系人";
+"phoneCallMultiCall" = "多人拨号";
+"phoneCallName" = "姓名";
+"phoneCallPhoneNumber" = "电话";
+"phoneCallEmail" = "邮箱";
+"phoneCallPosition" = "职位";
+"phoneCallCompany" = "公司";
+"phoneCallAddress" = "地址";
+"phoneCallCalling" = "开始电话会议";
+"phoneCallCall" = "呼叫";
+"phoneCallSelectionRequired" = "必填";
+"phoneCallSelectionNotRequired" = "选填";
+"phoneCallCallingUnavailable" = "您拨打的用户暂时无法接通";
+"phoneCallCallingSuccess" = "对方已接入会议";
+"phoneCallCallingPhoneNumberError" = "该用户无法拨通，请检查电话号码是否正确";
+"phoneCallDeleteContactMessage" = "确定删除联系人？";
+"phoneCallNumberRepeat" = "应用已存在该手机号码对应的联系人，请重新输入";
+"phoneCallNameError" = "抱歉，用户名只支持汉字字符、英文字母、数字和底线，请修改后确认";
+"phoneCallEdit" = "编辑";
+"phoneCallDelete" = "删除联系人";
+"phoneCallContactEmpty" = "姓名和电话不能为空";
+"phoneCallContactSaved" = "保存成功";
+"phoneCallContactPhoneNumError" = "该号码不可用，请检查后输入";
+"phoneCallWaiting" = "正在等待对方接受邀请...";
+"phoneCallNoServer" = "产品服务项到期或未授权，请联系对应销售或拨打400-1699-666";
+"phoneCallSaveContact" = "保存到手机通讯录";
+"phoneCallDontRemind" = "不再提醒";
+"phoneCallNetNotEnough" = "网关剩余拨号路数不够";
+"phoneCallCompanyNotEnough" = "企业剩余拨号路数不够";
+"phoneCallExpied" = "电话会议服务未开通或已过期";
+"phoneCallContactAdmin" = "如需要使用，请联系企业管理员或拨打";
+"phoneCallPurchase" = "咨询购买";
+"phoneCallNoRight" = "未授权电话呼叫，请联系管理员或拨打客服热线400-1699-666";
+
+"startupMeetingRoomWnd_StartupState_0" = "请稍候...";
+"startupMeetingRoomWnd_StartupState_1" = "正在获取版本信息...";
+"startupMeetingRoomWnd_StartupState_2" = "正在连接服务器...";
+"startupMeetingRoomWnd_StartupState_3" = "正在登录会议室...";
+"startupMeetingRoomWnd_StartupState_4" = "对不起，会议室被锁定，请等待主持人允许...";
+"startupMeetingRoomWnd_StartupState_5" = "正在初始化会议组件...";
+"startupMeetingRoomWnd_StartupState_6" = "正在初始化音频设备...";
+"startupMeetingRoomWnd_StartupState_7" = "正在初始化视频设备...";
+"startupMeetingRoomWnd_StartupState_8" = "正在初始化会议室...";
+"startupMeetingRoomWnd_StartupState_9" = "正在登录分组会议...";
+"startupMeetingRoomWnd_StartupState_10" = "正在登录主会议...";
+"startupMeetingRoomWnd_StartupState_11" = "用户验证成功...";
+"startupMeetingRoomWnd_StartupState_12" = "会议室验证成功...";
+
+"loginPaas_Error" = "Paas登录失败";
+"loginPaas_Error_0" = "未知错误";
+"loginPaas_Error_1" = "非法参数";
+"loginPaas_Error_2" = "非法状态";
+"loginPaas_Error_30" = "网络连接失败";
+"loginPaas_Error_31" = "没加入组";
+"loginPaas_Error_32" = "认证失败";
+"loginPaas_Error_33" = "app不存在，或者app被删除";
+"loginPaas_Error_34" = "相同用户ID已经加入同一个组，无法再加入";
+"loginPaas_Error_35" = "没有登录";
+"loginPaas_Error_36" = "重复登录错误";
+"loginPaas_Error_70" = "账户余额不足";
+"loginPaas_Error_71" = "没有视频权限";
+"loginPaas_Error_72" = "没有音频权限";
+"loginPaas_Error_301" = "服务内部错误";
+"loginPaas_Error_302" = "操作失败";
+"loginPaas_Error_50001" = "没有结果";
+"loginPaas_Error_50002" = "断开连接";
+"loginPaas_Error_50010" = "停止重连";
+
+"File_Error_0001" = "未知错误";
+"File_Error_0002" = "连接服务器失败";
+"File_Error_0003" = "服务器关闭连接";
+"File_Error_0004" = "本地文件打开失败";
+"File_Error_0005" = "本地文件读取失败";
+"File_Error_0006" = "本地文件写入失败";
+"File_Error_0007" = "上传的文件大小超过限定";
+"File_Error_0008" = "无权访问服务器的文件";
+"File_Error_0009" = "服务器异常";
+"File_Error_00010" = "验证失败";
+"File_Error_00011" = "用户不存在";
+"File_Error_00012" = "本地程序异常";
+"File_Error_00013" = "服务器未找到指定的文件";
+
+"Protocol_Error_4097" = "未知错误";
+"Protocol_Error_4098" = "异常错误";
+"Protocol_Error_4099" = "服务器内部错误";
+"Protocol_Error_4100" = "无效的会话";
+"Protocol_Error_4101" = "用户未找到";
+"Protocol_Error_4102" = "验证失败";
+"Protocol_Error_4103" = "用户无权访问";
+"Protocol_Error_4104" = "参数错误";
+"Protocol_Error_4105" = "系统正在维护，暂停服务";
+"Protocol_Error_4106" = "访问人数过多，暂停服务";
+
+"Protocol_Error_6145" = "此服务器未授权";
+"Protocol_Error_6146" = "此终端设备不支持";
+
+"Protocol_Error_8193" = "文件未找到";
+"Protocol_Error_8194" = "文件列表未找到";
+"Protocol_Error_8195" = "文件列表已存在";
+"Protocol_Error_8196" = "文件传输通道不存在";
+"Protocol_Error_8197" = "文件正在上传中，不允许同时上传一个文件";
+"Protocol_Error_8198" = "文件大小超过限定值";
+"Protocol_Error_8199" = "发送者还未上传该文件";
+"Protocol_Error_8200" = "文件已存在";
+
+"Protocol_Error_8448" = "服务器可用资源已满";
+"Protocol_Error_8449" = "用户密码错误";
+"Protocol_Error_8450" = "会议室未找到";
+"Protocol_Error_8451" = "会议室已满";
+"Protocol_Error_8452" = "应用类型不匹配";
+"Protocol_Error_8453" = "服务器不匹配";
+"Protocol_Error_8454" = "未找到指定的服务器";
+"Protocol_Error_8455" = "服务器已满员";
+"Protocol_Error_8456" = "用户重复进入同一个会议室";
+"Protocol_Error_8457" = "需要输入会议室密码";
+"Protocol_Error_8458" = "会议室已锁定";
+"Protocol_Error_8459" = "会议室已过期";
+"Protocol_Error_8460" = "会议室已关闭";
+"Protocol_Error_8461" = "主持人拒绝用户进入锁定会议室的请求";
+"Protocol_Error_8462" = "用户被列入黑名单，禁止进入锁定会议室";
+"Protocol_Error_8463" = "服务器级联失败";
+"Protocol_Error_8464" = "服务器未启动";
+"Protocol_Error_8465" = "服务器已停止";
+"Protocol_Error_8466" = "服务已到期或余额不足，请及时续费";
+"Protocol_Error_8467" = "订购的产品服务被停用";
+"Protocol_Error_8468" = "管理员密码错误";
+"Protocol_Error_8469" = "该会议室号不存在，请重新输入";
+"Protocol_Error_8470" = "访问被拒绝，只允许以用户名密码方式登录";
+"Protocol_Error_8471" = "当前会议不允许申请管理员";
+"Protocol_Error_8472" = "管理员未登录，会议未开启";
+"Protocol_Error_8473" = "会议室未找到";
+"Protocol_Error_8474" = "邀请码过期";
+"Protocol_Error_8475" = "您购买的产品服务不包含手机app服务。";
+"Protocol_Error_8476" = "会议未开始";
+"Protocol_Error_8477" = "组织授权点数已满";
+"Protocol_Error_8483" = "超过产品支持的并发会议数";
+"Protocol_Error_8489" = "请联系会议主办方授权邀请参会";
+"Protocol_Error_0" = "该账号已在其他移动端登录过";
+
+"Client_Error_256" = "启动音频采集设备失败,请检查设备是否工作正常!";
+"Client_Error_257" = "启动视频采集设备失败,请检查设备是否工作正常!";
+"Client_Error_258" = "启动音频播放设备失败,请检查设备是否工作正常!";
+
+"Custom_Error_1" = "网络连接被异常关闭";
+"Custom_Error_2" = "连接到服务器失败";
+"Custom_Error_3" = "检测到新的客户端，现在版本必须升级，是否立即升级？";
+"Custom_Error_4" = "检测到新的客户端，现在版本仍可用，是否立即升级？";
+"Custom_Error_20820" = "您订购的服务已到期，请联系客服人员续费";
+
+"Exeption_Error" = "发生异常错误";
+
+"appServiceIsNotIncludedInYourService"="您购买的产品服务不包含手机app服务。";
+
+"removeVideoDevice" = "对方已移除全部视频设备";
+
+"maximumNumberOfGroups" = "已达到最大群组数量，请删除部分群组后再创建";
+"view" = "查看";
+"groupNameCannotBeEmpty" = "群组名称不能为空";
+"pleaseEnterAGroupName" = "请输入群组名称";
+"addressbook" = "通讯录";
+"setting" = "设置";
+"corporateContact" = "企业内联系人";
+"myGroup" = "我的群组";
+"myCollection" = "我的收藏";
+"personInTotal" = "共%d人";
+"online" = "在线";
+"inMeeting" = "会议中";
+"offline" = "离线";
+"call" = "呼叫";
+"collect" = "收藏";
+"cancelCollection" = "取消收藏";
+"noContactsToView" = "没有可查看的联系人，请联系企业管理员在后台更新企业通讯录";
+"serverConnectionFailedPleaseTryAgainLater" = "服务器连接失败，请稍后重试";
+"theNetworkIsAbnormalPleaseCheckAndTryAgain" = "网络异常，请检查后重试";
+"noGroup" = "无群组";
+"createGroup" = "创建群组";
+"groupName" = "群组名称";
+"selectContact" = "选择联系人";
+"exceededTheMaximumNumberOfPeople" = "超出最大人数限制";
+"iKnow" = "我知道了";
+"areYouSureToDelete" = "您确定删除‘%@’么？";
+"noCollectedContacts" = "暂无收藏的联系人";
+"doNotDisturbDuringTheMeeting" = "会中免打扰";
+"theConferenceRoomPasswordIsIncorrectPleaseRe-enter" = "会议室密码错误，请重新输入。";
+"waitingForTheOtherPartyToAcceptTheInvitation" = "正在等待对方接受邀请...";
+"inviteYouToJoinTheMeeting" = "邀请您加入会议...";
+"cancelCall" = "取消";
+"refuse" = "拒绝";
+"answer" = "接听";
+"callHungUp" = "对方已挂断";
+"userHasNoResponse" = "用户无应答";
+"noSearchResults" = "无搜索结果";
+"selectedContact" = "已选联系人：";
+"callInvitation" = "呼叫邀请";
+"callInvitationFailure" = "呼叫失败";
+"instantMeetingRoomNameSuffix" = "的会议";
+"inviteeReject" = "对方正忙，请稍后再试";
+"inviteSended"  = "呼叫邀请已发送";
+"noInviteAuthority"  = "此功能仅限管理员可用";
+"logUploading" = "正在上传操作日志";
+
+"successfulCollection" = "收藏成功";
+"cancelCollectionSuccess" = "取消收藏成功";
+"cancelThisOperation" = "确定取消本次操作吗?";
+"contactListFailedNeedRelogin" = "联系人列表获取失败 如需使用通讯录，请尝试重新登录";
+"noContactsToView" = "没有可查看的联系人，请联系企业管理员在后台更新企业通讯录";
+"deleteGroup" = "删除群组";
+"planInformation" = "套餐信息";
+"contactStructChange" = "组织架构已被管理员修改";
+"configurationCenterNetworkFeatureConfiguredCIncorrectly" = "配置中心-网络特性配置有误，请联系管理员";
+"forceLogoutTips" = "您的账号%@在另一台设备进行了登录，您当前的登录已被迫退出。如果这不是您本人的操作，请联系企业管理员在后台修改密码。";
+"forceLoginTips" = "您输入的账号%@,当前已登录其他设备在线中,如继续登录,该账号将被迫从另一台设备下线。";
+"accountIsCurrentlyInMeeting" = "你输入的账号%@,当前正在会议中。";
+"continueLogin" = "继续登录";
+"loginPaaSFailed" = "登录PaaS失败";
+"paasReconnectingTips" = "与PaaS断开连接，正在重连中，请稍后再试";
+"paasDisconnectedTips" = "与PaaS断开连接，请重新登录";
+"createGroupNameError" = "抱歉，当前群组名存在特殊字符（如表情），请修改后，再次确认";
+
+"meeting_edit" = "编辑";
+"meeting_share" = "分享";
+/* ------------------------------------------------------------------------ */
+"SupportLanguage" = "en;zh";
+
+// 登录 && 注册
+"VerificationCodeErrorMsg" = "验证码错误";
+"RegistrationAgreementPrivacyStatement" = "注册协议和隐私政策";
+"RegistrationAgreementPrivacyStatementDetail" = "欢迎您使用好视通云会议！我们非常重视您的隐私保护和个人信息保护，特别提示您阅读并充分理解“注册协议”和“隐私政策”各条款。我们会严格按照法律规定存储和使用您的个人信息，未经您同意，我们不会提供给任何第三方进行使用。我们会采用业界领先的安全措施保护您的个人信息安全。您可以阅读《注册协议》和《隐私政策》全文了解详细信息。如您同意，请点击“同意”开始接受我们的服务。";
+"RegistrationAgreement" = "注册协议";
+"PrivacyStatement" = "隐私政策";
+"Agree" = "同意";
+"Disagree" = "不同意";
+"EditPersonalInformation" = "修改个人信息";
+"Logout2" = "注销账号";
+
+// 主页
+"JoinAMeeting" = "加入会议";
+"BookAMeeting" = "预约会议";
+"BookMeeting" = "预约会议";
+"BookMeetingInPastWeek" = "近一周预约";
+"HomePage" = "主页";
+"NoBookMeetingInPastWeek" = "最近一周暂无会议安排";
+"InvitationCode" = "邀请码";
+"SchedulMeetingMonday" = "周一";
+"SchedulMeetingTuesday" = "周二";
+"SchedulMeetingWednesday" = "周三";
+"SchedulMeetingThursday" = "周四";
+"SchedulMeetingFriday" = "周五";
+"SchedulMeetingSaturday" = "周六";
+"SchedulMeetingSunday" = "周日";
+"SchedulMeetingToday" = "今天";
+"SchedulMeetingTomorrow" = "明天";
+"InsufficientUserRights" = "用户权限不足";
+
+// 会议日程
+"MeetingSchedule" = "会议日程";
+"CloudRoom" = "云会议室";
+"NoMeetingSchedule" = "暂无会议安排";
+"BookMeetingDetail" = "详情";
+
+// h5
+"H5LoadFailed" = "加载失败，请重试";
+
+// CES 4.30
+"CascadeServerJoinMeetingFailed" = "您所在的企业使用了级联服务，仅支持账号登录。";
+
+// 黑名单处理
+"UserNoLogin" = "您的账号已被禁用，请联系管理员。";
+
+// 适配大会议权限
+"MeetingInsideNotPermissionTip" = "您没有操作权限，请联系管理员";
+"MeetingInsideCloseOtherSharedTip" = "这将关闭对方的共享，是否继续？";
+
+"PermissionOccupied" = "权限被占用";
+"OnlyOnePersonCanShareTips" = "会议同时只允许1个人共享，请等待对方结束后再共享";
+"NotHaveOperationRightsTips" = "您当前无操作权限，可以联系管理员或者申请管理员";
+"ArgumentsError" = "参数错误";
+"UserNotAuthorizedAccess" = "用户无权访问";
+
+// 3.33
+// 屏幕共享
+"meetingInsideShareScreen" = "屏幕共享";
+"meetingInsideShareScreening" = "正在共享桌面...";
+"meetingInsideStopShareScreen" = "停止共享";
+"under12UnsupportShareScreen" = "iOS 12以下版本的操作系统不支持发起屏幕共享";
+"shareScreenNetworkNeverHint" = "当前网络规则为“不接收”，您无法接收视频和共享本地桌面";
+"shareScreenNetworkOnlyWiFi" = "当前不允许在移动数据网络下广播本地视频和共享本地桌面，请在“设置”中更改网络规则";
+
+"KickOutMeetingRoom"   =   "请出会议室";
+"StartMeetingNow"      =   "即时开会";
+"MoreLayout"           =    "布局";
+"MoreCloudRecord"      =    "云录制";
+"MoreInviteJoinMeeting"=    "邀请参会";
+"LayoutTypeTitle"      =    "切换布局";
+"LayoutTypeVideo"      =    "视频焦点(均分)";
+"LayoutTypeData"       =    "数据+视频(平铺)";
+"layout_pop"="数据+视频(弹出)";
+"LayoutType4Split"     =    "四分屏";
+"SetUploadRecord"      =    "上传日志";
+// 云录制
+"cloudRecordStart"     =    "开始录制";
+"cloudRecordStop"      =    "停止录制";
+"cloudRecording"       =    "正在录制中...";
+"cloudRecordCompleteTip" = "录制已完成，录制视频已保存在文件夹中";
+"tabItemFile"          =    "文件";
+"shareFileFolder"      =    "共享文件";
+"sheetFileWatch"       =    "查看";
+"sheetFileShare"       =    "分享";
+"FileShareName"        =    "文件名称";
+"FileShareLimits"      =    "分享范围";
+"FileShareUers"        =    "指定用户";
+"FileShareAddUser"     =    "从通讯录添加";
+"SetUploadRecordSuccess" =  "日志上传成功";
+"MeetingBeauty"        =    "美颜";
+"FileShareSuccess"     =    "分享成功";
+"MeetingAudioTranslation" =    "同声传译";
+"JoinMeetingAudioLanguageTip" = "本场会议已开启同声传译，请选择需要接收的语言：";
+"ReceiveAudio"         =    "接收音频";
+"recordFileEmpty"      =    "文件为空";
+
+"MoreVideoMirroring"   =   "视频镜像";
+"AudioLoopToCloseAudio" =   "检测到啸叫，已为您静音";
+"AppliedBecomeAdministrator" = "您已申请成为管理员";
+
+"OpenMicrophone" = "入会打开麦克风";
+"OpenCamera" = "入会打开摄像头";
+"InstantMeeting" = "即时会议";
+"ClearRecords" = "清空记录";
+"my" = "我的";
+"General" = "通用";
+
+// 统一UI
+"OpenSpeaker"  = "您已打开扬声器";
+"CloseSpeaker" = "您已关闭扬声器";
+"ShareToolBarNotSaveTip"   = "屏幕、多媒体共享不支持保存";
+"ShareToolBarNotRotateTip" = "屏幕、多媒体共享不支持旋转";
+"OpenLocalMic"  = "您已打开本地麦克风";
+"DisableLocalMic" = "您已禁用本地麦克风";
+"OpenLocalVideo"  = "您已打开本地摄像头";
+"DisableLocalVideo" = "您已禁用本地摄像头";
+"ConfirmEndMeeting"="确认要结束会议？";
+"EndMeeting"="结束";
+"BtnEndMeeting"="结束会议";
+"layout_pip"="画中画";
+"layout_2p"="二分屏";
+"layout_1f"="一焦点";
+"layout_2f"="二焦点";
+"layout_follow"="跟随布局";
+"layout_pop"="数据+视频(弹出)";
+"local_mic"="本地麦克风";
+"local_camara"="本地摄像头";
+"local_video"="本地视频预览";
+"whiteboard"="白板";
+"switch_share"="切换共享";
+"user_nopersion"="用户无权限";
+"liveTip" = "您已广播视频,无法更改本地视频预览";
+"shareScreenTip" = "会中已有屏幕共享，请等待共享结束后再共享";
+"exitMeetingTip" = "您要退出会议还是结束会议？";
+"onlyExitMeetingTip" = "您要退出会议？";
+"exitMeeting" = "退出会议，其他人继续会议";
+"endMeeting" = "结束会议，所有人退出会议";
+"disableMicTip" = "您的麦克风已禁用，发言前请先解禁";
+"disableVideoTip" = "您的摄像头已禁用，打开视频前请先解禁";
+"noPermissionSaveWhiteboard" = "无权限保存白板";
+"openVideoTip" = "您已打开视频";
+"closeVideoTip" = "您已关闭视频";
+
+"stopMark" = "结束标注";
+"switchShares" = "切换共享";
+"lastPage" = "已到最后一页";
+"firstPage" = "已到第一页";
+"sharing" = "正在共享";
+"recording" = "录制中";
+"muteAll" = "全场静音";
+"oneClickRedial" = "一键重拨";
+
+"ServerAddress" = "服务器地址";
+
+// 3.35
+"HowlCheck" = "啸叫检测";
+"OpenLocal" = "解除禁用";
+
+//shenjian 20220110
+"ToolUnmute" = "解除静音";
+"ToolStopVideo" = "停止视频";
+"ToolTurnOnVideo" = "开启视频";
+"ApplyTurnOnVideo" ="您正在申请开启视频";
+"ApplyGiveupUnmute" = "您正在申请解除静音";
+"Unmuted" = "您已解除静音";
+"Muted" = "您已静音";
+"TurnOnVideo"= "您已开启视频";
+"TurnOffVideo" = "您已关闭视频";
+"ToolMute" = "静音";
+"InviteParticantMeeting"  = "正在邀请您参加会议，可通过邀请码";
+"CopyInviteInformation" = "复制邀请信息";
+"JoinMeeting1" = "入会";
+"CloudMeeting" = "云会议";
+"OpenDocumentLimt" = "您打开的文档数量超过限制，请先关闭一些已打开的文档";
+ "CameraNotuse" = "摄像头不可用!";
+"MicroNotUse" = "麦克风不可用";
+"InputChatContent" = "请输入聊天内容";
+"CancelLogin" = "登录已取消";
+"MeetingNoAuthorizeUser" = "会议室未授权该用户";
+"SuccessSetIpAndPort" = "服务器IP和端口,clientID和secret未设置或未设置成功";
+"MeetingNoEmpty" = "会议室不能为空";
+"UserNameLimit" = "用户名长度必须为1~32位";
+"Loginging" = "登录中...";
+"ParamerErrorPleaseCheck" = "参数错误，请检查参数！";
+"LoginFailure" = "登录失败!";
+"ClientError" = "ClientID或ClientSecret信息错误";
+"InputMeetingSubject" = "请输入会议主题";
+"InputSearchKeyord" = "请输入搜索关键字";
+"InviteJoinMeeting" = "邀请入会";
+"SearchContacts" = "搜索联系人";
+//
+"UsersCount" = "共%lu人";
+"PleaseSelectInviter" = "请选择呼叫用户";
+"TheMaximumNumberOfMembersHasBeenReached" = "已达到最大成员数量";
+"SortUpdated" = "排序已更新";
+"AbandonInvite" = "已在其他端操作";
+"You do not have permission to operate" = "您没有权限操作";

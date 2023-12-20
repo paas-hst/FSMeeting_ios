@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- 会前管理模块 api 信息配置文件 -->
+<root>
+    <ConfigVersion>3.0</ConfigVersion>
+    
+    <AppKey key="public">a8baa56554f96369ab93e4f3bb068c22</AppKey>
+    <OauthKey key="public">xxx</OauthKey>
+    <OauthSecret key="public">xxx</OauthSecret>
+    
+    <AppKey key="private">3025495AEE146DA3864AB81BAAF79A3E</AppKey>
+    <OauthKey key="private">xxx</OauthKey>
+    <OauthSecret key="private">xxx</OauthSecret>
+    
+    <ChannelCoding></ChannelCoding><!--渠道码-->
+    
+    <CollectHome key="ANALYSIS_HOMEPAGE">http://collect.hst.com</CollectHome><!--数据采集提交地址-->
+    <ConfigHome key="CONFIG_HOMEPAGE">https://config.hst.com</ConfigHome><!--配置中心地址-->
+    <OpsHome key="OPS_HOMEPAGE">http://ops.hst.com</OpsHome><!--运维信息地址-->
+    <OauthUrl><!--认证-->
+        <Url key="OAUTH_GET_TOKEN">https://oauth.hst.com/oauth2/token</Url>
+    </OauthUrl>
+    <InterfaceUrl><!--资源-->
+        <Url key="INTERFACE_QUERY_DEMO" >https://interface.hst.com/open/rooms/demo</Url>
+        <Url key="INTERFACE_QUERY_MOBILECODE" >https://interface.hst.com/open/smsservice/getverifycode</Url>
+        <Url key="INTERFACE_CHECK_MOBILECODE" >https://interface.hst.com/open/users/</Url>
+        <Url key="INTERFACE_CREATE_USER" >https://interface.hst.com/open/users</Url>
+        <Url key="INTERFACE_CREATE_USER_V2" >https://interface.hst.com/open/users/v2</Url>
+        <Url key="INTERFACE_MOBLIE_AVAILABLE" >https://interface.hst.com/open/smsservice/available</Url>
+        <Url key="INTERFACE_CREATE_BINDINFO" >https://interface.hst.com/api/bind/:9443</Url>
+        <Url key="INTERFACE_REMOVE_BINDINFO" >https://interface.hst.com/api/bind/:9443</Url>
+        <Url key="INTERFACE_QUERY_BINDINFO" >https://interface.hst.com/api/bind/:9443</Url>
+        <Url key="INTERFACE_QUERY_USERLEVEL" >https://interface.hst.com/security/userrightservice/getuserright</Url>
+        <Url key="INTERFACE_MEETING_FUNCTION" >https://interface.hst.com/security/userrightservice/functions</Url>
+        <Url key="INTERFACE_QUERY_REMINDMESSAGE" >https://interface.hst.com/security/productservice/remind</Url>
+        <Url key="INTERFACE_QUERY_USERINFO" >https://interface.hst.com/api/users/myself</Url>
+        <Url key="INTERFACE_EDIT_USERINFO" >https://interface.hst.com/api/users/</Url>
+        <Url key="INTERFACE_MEETING_SCHEDULE_PAGE" >https://interface.hst.com/security/meeting/schedule/page</Url>
+        <Url key="INTERFACE_QUERY_ALLMEETINGROOM" >https://interface.hst.com/security/roomlookupservice/having</Url>
+        <Url key="INTERFACE_QUERY_ALLMANAGERMEEINGROOM" >https://interface.hst.com/security/roomlookupservice/mycreate</Url>
+        <Url key="INTERFACE_CREATE_MEETINGROOM" >https://interface.hst.com/security/roomservice/create</Url>
+        <Url key="INTERFACE_EDIT_MEETINGROOM" >https://interface.hst.com/security/roomservice/update</Url>
+        <Url key="INTERFACE_REMOVE_MEETINGROOM" >https://interface.hst.com/security/roomservice/delete</Url>
+        <Url key="INTERFACE_QUERY_MEETINGROOMINFO" >https://interface.hst.com/security/roomservice/getroominfo</Url>
+        <Url key="INTERFACE_QUERY_MEETINGROOMINFO_NEW" >https://interface.hst.com/open/rooms/getroominfo</Url>
+        <Url key="INTERFACE_QUERY_REGISTER_PAAS_AUTH_INFO" >https://interface.hst.com/security/paasAuthInfo</Url>
+        <Url key="INTERFACE_QUERY_ANONYMOUS_PAAS_AUTH_INFO" >https://interface.hst.com/open/paasAuthInfo</Url>
+        <Url key="INTERFACE_INSTANT_MEETING" >https://interface.hst.com/security/meeting/instant</Url>
+        <Url key="INTERFACE_ADD_INSTANT_MEETING_USER" >https://interface.hst.com/security/meeting</Url>
+        <Url key="INTERFACE_QUERY_COMPANY_USERS" >https://interface.hst.com/security/company/users</Url>
+        <Url key="INTERFACE_QUERY_COMPANY_DEPARTMENTS" >https://interface.hst.com/security/company/departments</Url>
+        <Url key="INTERFACE_QUERY_DEPARTMENTS_USERS" >https://interface.hst.com/security/departments</Url>
+        <Url key="INTERFACE_GROUPS" >https://interface.hst.com/security/groups</Url>
+        <Url key="INTERFACE_RECORD_TASK_LIST" >https://192.168.6.234:8443//meeting-resource-server/security/recordTaskList</Url>
+        <Url key="INTERFACE_RECORD_SHARE_TASK_LIST" >https://192.168.6.234:8443//meeting-resource-server/security/shareTaskList</Url>
+        <Url key="INTERFACE_RECORD_SHARE" >https://192.168.6.234:8443//meeting-resource-server/security/share</Url>
+        <Url key="INTERFACE_REPORT_PRODUCT_LOG" >https://192.168.5.190:8443/meeting-resource-server/security/productlog</Url>
+        <Url key="INTERFACE_REPORT_PRODUCT_LOG_OPEN">https://192.168.5.190:8443/meeting-resource-server/open/productlog</Url>
+    </InterfaceUrl>
+    
+    <Language>
+        <LanguageItem id="2052" name="zh-cn"/>
+        <LanguageItem id="1028" name="zh-tw"/>
+        <LanguageItem id="1033" name="en-us"/>
+        <LanguageItem id="0" name="en-us"/><!--默认-->
+        
+    </Language>
+</root>

@@ -1,0 +1,6 @@
+framework module FSMeeting {
+  umbrella header "FSMeeting.h"
+
+  export *
+  module * { export * }
+}
