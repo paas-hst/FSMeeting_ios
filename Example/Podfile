@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'FSMeeting_ios_Example' do
+  pod 'FSMeeting_ios', :path => '../'
+
+  target 'FSMeeting_ios_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
