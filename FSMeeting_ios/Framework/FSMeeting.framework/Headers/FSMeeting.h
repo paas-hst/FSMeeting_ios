@@ -145,6 +145,9 @@ typedef enum : NSUInteger {
 /// 是否处于会议室中
 -(BOOL)isFSMeetingActive;
 
+/// 是否已最小化
+- (BOOL)isFSMeetingMinimize;
+
 /// 是否设置了IP，端口，clientID,secret
 -(BOOL)hadSuccessConfigSdkInfo;
 
@@ -165,9 +168,6 @@ typedef enum : NSUInteger {
 
 /// 退出会议室
 - (void)exitMeetingRoom;
-
-/// 是否已最小化
-- (BOOL)isFSMeetingMinimize;
 
 /* SDK 相关代理
  @return void
