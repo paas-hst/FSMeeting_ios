@@ -30,6 +30,7 @@ NS_ASSUME_NONNULL_BEGIN
  * @param listener    监听回调的对象
  */
 -(void)addEventListener:(id<SdkManagerDelegate>) listener;
+
 /**
  * 获取屏幕共享单列
  *
@@ -163,7 +164,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * 获取SDK版本号
  *
- * @return NSString     sdk版本号(V3.36.10.24)
+ * @return NSString     sdk版本号(V3.36.10.26)
  */
 -(NSString*)getSdkVersion;
 
