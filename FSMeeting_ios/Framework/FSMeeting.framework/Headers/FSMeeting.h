@@ -72,7 +72,7 @@ typedef enum : NSUInteger {
 /// 会议室ID
 @property (nonatomic, copy) NSString *roomid;
 /// 宿主UIViewController
-@property (nonatomic, strong) UIViewController *fatherVc;
+@property (nonatomic, weak) UIViewController *fatherVc;
 /// 0:扬声器[默认扬声器]   1:听筒
 @property (nonatomic, assign) NSInteger audioMode;
 /// 默认图片Url
@@ -164,20 +164,14 @@ typedef enum : NSUInteger {
 - (void)setHangupBlock:(void(^)(FSMeetingSceneType))hangupBlock;
 
 /// 设置窗口最大化
-- (void)maximizeWindow;
+/// - Parameter fatherViewCtl: present 会中界面的父视图(传入nil则使用入会参数的fatherVc)
+- (void)maximizeWindow:(UIViewController *)fatherViewCtl;
 
 /// 退出会议室
 - (void)exitMeetingRoom;
 
-/* SDK 相关代理
- @return void
- */
-- (void)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions  DEPRECATED_MSG_ATTRIBUTE("将在下个版本被取消");
-- (void)applicationWillResignActive:(UIApplication *)application;
-- (void)applicationDidEnterBackground:(UIApplication *)application;
-- (void)applicationWillEnterForeground:(UIApplication *)application;
-- (void)applicationWillTerminate:(UIApplication *)application;
-- (void)applicationDidBecomeActive:(UIApplication *)application;
-- (NSUInteger)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window ;
+
+/// 支持屏幕旋转方向
+- (UIInterfaceOrientationMask)supportedInterfaceOrientations;
 
 @end
