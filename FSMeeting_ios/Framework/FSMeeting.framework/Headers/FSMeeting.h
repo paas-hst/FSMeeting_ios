@@ -149,7 +149,7 @@ typedef enum : NSUInteger {
 - (BOOL)isFSMeetingMinimize;
 
 /// 是否设置了IP，端口，clientID,secret
--(BOOL)hadSuccessConfigSdkInfo;
+- (BOOL)hadSuccessConfigSdkInfo;
 
 /// 设置会议室场景
 /// - Parameter type: 纯音频/音视频/会议
@@ -169,6 +169,16 @@ typedef enum : NSUInteger {
 
 /// 退出会议室
 - (void)exitMeetingRoom;
+
+
+/// 开关麦克风功能
+/// - Parameter enabled: 0:关闭 1:开启
+- (void)setMicrophoneEnabled:(BOOL)enabled;
+
+
+/// 开关摄像头功能
+/// - Parameter enabled: 0:关闭 1:开启
+- (void)setCameraEnabled:(BOOL)enabled;
 
 
 /// 支持屏幕旋转方向

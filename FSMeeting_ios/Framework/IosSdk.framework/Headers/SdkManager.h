@@ -164,7 +164,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  * 获取SDK版本号
  *
- * @return NSString     sdk版本号(V3.36.10.32)
+ * @return NSString     sdk版本号(V3.36.10.33)
  */
 -(NSString*)getSdkVersion;
 
