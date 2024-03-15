@@ -167,19 +167,19 @@ typedef enum : NSUInteger {
 /// - Parameter fatherViewCtl: present 会中界面的父视图(传入nil则使用入会参数的fatherVc)
 - (void)maximizeWindow:(UIViewController *)fatherViewCtl;
 
+/// 设置窗口最小化
+- (void)minimizeWindow;
+
 /// 退出会议室
 - (void)exitMeetingRoom;
-
 
 /// 开关麦克风功能
 /// - Parameter enabled: 0:关闭 1:开启
 - (void)setMicrophoneEnabled:(BOOL)enabled;
 
-
 /// 开关摄像头功能
 /// - Parameter enabled: 0:关闭 1:开启
 - (void)setCameraEnabled:(BOOL)enabled;
-
 
 /// 支持屏幕旋转方向
 - (UIInterfaceOrientationMask)supportedInterfaceOrientations;
