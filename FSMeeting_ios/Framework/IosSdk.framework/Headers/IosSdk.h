@@ -27,7 +27,7 @@
 #import <IosSdk/BaseUserInfo.h>
 #import <IosSdk/WhiteBoardView.h>
 #import <IosSdk/FMWebAppView.h>
-
+#import <IosSdk/FMLogAdaptor.h>
 //! Project version number for IosSdk.
 FOUNDATION_EXPORT double IosSdkVersionNumber;
 
