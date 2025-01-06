@@ -181,6 +181,13 @@ typedef enum : NSUInteger {
 /// - Parameter enabled: 0:关闭 1:开启
 - (void)setCameraEnabled:(BOOL)enabled;
 
+/// 切换 前置/后置 摄像头
+/// - Parameter position: 0:前置摄像头 1:后置摄像头
+- (void)switchCamera:(NSInteger)position;
+
+/// 获取当前摄像头位置 0:前置摄像头 1:后置摄像头
+- (NSInteger)getCameraPosition;
+
 /// 支持屏幕旋转方向
 - (UIInterfaceOrientationMask)supportedInterfaceOrientations;
 
