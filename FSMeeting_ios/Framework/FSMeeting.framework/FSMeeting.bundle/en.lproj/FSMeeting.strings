@@ -1015,3 +1015,9 @@
 "SortUpdated" = "Sort updated";
 "AbandonInvite" = "The operation has been performed on the other end";
 "You do not have permission to operate" = "You do not have permission to operate";
+
+"hangUpTips" = "After hanging up, the video session will end and the current business will be terminated.";
+"hangUp" = "hang up";
+"continue" = "continue";
+
+"minimizeTips" = "When minimizing the video, please click here.";

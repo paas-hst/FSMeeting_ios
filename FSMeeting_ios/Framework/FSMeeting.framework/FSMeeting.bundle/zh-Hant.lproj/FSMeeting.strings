@@ -1013,3 +1013,9 @@
 "SortUpdated" = "排序已更新";
 "AbandonInvite" = "已在其他端操作";
 "You do not have permission to operate" = "您沒有權限操作";
+
+"hangUpTips" = "掛斷後則會結束視頻會話，並且結束本次業務。";
+"hangUp" = "掛斷";
+"continue" = "繼續";
+
+"minimizeTips" = "最小化視頻時，請點擊這裡。";

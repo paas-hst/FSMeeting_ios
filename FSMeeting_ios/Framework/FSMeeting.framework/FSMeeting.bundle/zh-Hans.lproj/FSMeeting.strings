@@ -1018,3 +1018,9 @@
 "SortUpdated" = "排序已更新";
 "AbandonInvite" = "已在其他端操作";
 "You do not have permission to operate" = "您没有权限操作";
+
+"hangUpTips" = "挂断后则会结束视频会话，并且结束本次业务。";
+"hangUp" = "挂断";
+"continue" = "继续";
+
+"minimizeTips" = "最小化视频时，请点击这里。";
