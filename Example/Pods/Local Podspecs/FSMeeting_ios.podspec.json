@@ -1,22 +1,31 @@
 {
   "name": "FSMeeting_ios",
-  "version": "0.1.0",
+  "version": "3.36.10.40",
   "summary": "A short description of FSMeeting_ios.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/zhongxy/FSMeeting_ios",
+  "homepage": "https://github.com/paas-hst/FSMeeting_ios",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "zhongxy": "zhongxy@hst.com"
+    "hst": "paas@hst.com"
   },
   "source": {
-    "git": "https://github.com/zhongxy/FSMeeting_ios.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/paas-hst/FSMeeting_ios.git",
+    "tag": "3.36.10.40"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "11.0"
   },
-  "source_files": "FSMeeting_ios/Classes/**/*"
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "vendored_frameworks": [
+    "FSMeeting_ios/Framework/FSMeeting.xcframework",
+    "FSMeeting_ios/Framework/IosSdk.xcframework"
+  ],
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  }
 }

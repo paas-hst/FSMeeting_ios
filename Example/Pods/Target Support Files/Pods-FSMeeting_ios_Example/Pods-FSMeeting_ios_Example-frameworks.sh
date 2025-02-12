@@ -176,10 +176,12 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/FSMeeting_ios/FSMeeting_ios.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/FSMeeting_ios/FSMeeting.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/FSMeeting_ios/IosSdk.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/FSMeeting_ios/FSMeeting_ios.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/FSMeeting_ios/FSMeeting.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/FSMeeting_ios/IosSdk.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

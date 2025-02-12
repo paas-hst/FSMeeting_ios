@@ -1,5 +1,5 @@
 PODS:
-  - FSMeeting_ios (0.1.0)
+  - FSMeeting_ios (3.36.10.40)
 
 DEPENDENCIES:
   - FSMeeting_ios (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FSMeeting_ios: eb0abd621293400fcf432b683761399b0150fc0b
+  FSMeeting_ios: d62c800c11d9a765ebd2c74301ab1cc769b37175
 
 PODFILE CHECKSUM: 533e8e69c63a4897241a89ab5740d4b3ebf24ed5
 

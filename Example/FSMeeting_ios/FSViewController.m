@@ -7,7 +7,7 @@
 //
 
 #import "FSViewController.h"
-
+#import <FSMeeting/FSMeeting.h>
 @interface FSViewController ()
 
 @end
@@ -18,6 +18,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [[FSMeeting shared] setClientInfo:@"" secret:@"" serverip:@"" serverport:@"" viewCtrl:self isShowHud:YES result:^(BOOL isSuccess) {
+            
+    }];
 }
 
 - (void)didReceiveMemoryWarning

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FSMeeting_ios'
-  s.version          = '3.36.10.38'
+  s.version          = '3.36.10.40'
   s.summary          = 'A short description of FSMeeting_ios.'
 
 # This description is used to generate tags and improve search results.
@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
   # s.source_files = 'FSMeeting_ios/Classes/**/*'
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64' }
   
-  s.vendored_frameworks = 'FSMeeting_ios/Framework/FSMeeting.framework', 'FSMeeting_ios/Framework/IosSdk.framework'
+  s.vendored_frameworks = 'FSMeeting_ios/Framework/FSMeeting.xcframework', 'FSMeeting_ios/Framework/IosSdk.xcframework'
   
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
