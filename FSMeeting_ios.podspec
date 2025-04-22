@@ -28,11 +28,11 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/paas-hst/FSMeeting_ios.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '12.0'
+  s.ios.deployment_target = '11.0'
 
   # s.source_files = 'FSMeeting_ios/Classes/**/*'
   s.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64' }
-  s.vendored_frameworks = 'FSMeeting_ios/Framework/FSMeeting.xcframework', 'FSMeeting_ios/Framework/IosSdk.xcframework'
+  s.vendored_frameworks = 'FSMeeting_ios/Framework/FSMeeting.framework', 'FSMeeting_ios/Framework/IosSdk.framework'
   
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
