@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FSMeeting_ios'
-  s.version          = '3.36.10.42'
+  s.version          = '3.36.10.43'
   s.summary          = 'A short description of FSMeeting_ios.'
 
 # This description is used to generate tags and improve search results.

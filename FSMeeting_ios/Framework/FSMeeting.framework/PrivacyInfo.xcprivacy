@@ -2,94 +2,75 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <!-- 跟踪透明度开关 -->
     <key>NSPrivacyTracking</key>
     <false/>
-
-    <!-- 收集的数据类型声明 -->
     <key>NSPrivacyCollectedDataTypes</key>
     <array>
-        <!-- 摄像头 -->
         <dict>
             <key>NSPrivacyCollectedDataType</key>
             <string>NSPrivacyCollectedDataTypeCamera</string>
             <key>NSPrivacyCollectedDataPurpose</key>
             <array>
-                <string>C617.1</string> <!-- 用户主动拍摄照片/视频 -->
+                <string>C617.1</string>
             </array>
         </dict>
-
-        <!-- 麦克风 -->
         <dict>
             <key>NSPrivacyCollectedDataType</key>
             <string>NSPrivacyCollectedDataTypeMicrophone</string>
             <key>NSPrivacyCollectedDataPurpose</key>
             <array>
-                <string>C617.2</string> <!-- 语音输入/录音功能 -->
+                <string>C617.2</string>
             </array>
         </dict>
-
-        <!-- 本地网络 -->
         <dict>
             <key>NSPrivacyCollectedDataType</key>
             <string>NSPrivacyCollectedDataTypeLocalNetwork</string>
             <key>NSPrivacyCollectedDataPurpose</key>
             <array>
-                <string>C617.5</string> <!-- 局域网设备发现与通信 -->
+                <string>C617.5</string>
             </array>
         </dict>
-
-        <!-- 相册添加 -->
         <dict>
             <key>NSPrivacyCollectedDataType</key>
             <string>NSPrivacyCollectedDataTypeUserMedia</string>
             <key>NSPrivacyCollectedDataPurpose</key>
             <array>
-                <string>C617.3</string> <!-- 保存用户生成的内容到相册 -->
+                <string>C617.3</string>
             </array>
         </dict>
-
-        <!-- 通讯录 -->
         <dict>
             <key>NSPrivacyCollectedDataType</key>
             <string>NSPrivacyCollectedDataTypeContacts</string>
             <key>NSPrivacyCollectedDataPurpose</key>
             <array>
-                <string>C617.4</string> <!-- 联系人同步/地址选择功能 -->
-            </array>
-        </dict>
-
-        <!-- 相册访问 -->
-        <dict>
-            <key>NSPrivacyCollectedDataType</key>
-            <string>NSPrivacyCollectedDataTypeUserMedia</string>
-            <key>NSPrivacyCollectedDataPurpose</key>
-            <array>
-                <string>C617.3</string> <!-- 读取用户相册内容 -->
+                <string>C617.4</string>
             </array>
         </dict>
     </array>
-
-    <!-- 访问的API类型声明 -->
     <key>NSPrivacyAccessedAPITypes</key>
     <array>
-        <!-- 相册API -->
         <dict>
             <key>NSPrivacyAccessedAPIType</key>
-            <string>NSPrivacyAccessedAPICategoryPhotosLibrary</string>
+            <string>NSPrivacyAccessedAPICategorySystemPhotoLibrary</string>
             <key>NSPrivacyAccessedAPITypeReasons</key>
             <array>
-                <string>35F9.1</string> <!-- 调用Photos框架读取/写入相册 -->
+                <string>CA92.1</string>
             </array>
         </dict>
-
-        <!-- 通讯录API -->
         <dict>
             <key>NSPrivacyAccessedAPIType</key>
             <string>NSPrivacyAccessedAPICategoryContacts</string>
             <key>NSPrivacyAccessedAPITypeReasons</key>
             <array>
-                <string>35F9.2</string> <!-- 调用Contacts框架操作通讯录 -->
+                <string>CA92.2</string>
+            </array>
+        </dict>
+        <dict>
+            <key>NSPrivacyAccessedAPIType</key>
+            <string>NSPrivacyAccessedAPICategorySystemBootTime</string>
+            <key>NSPrivacyAccessedAPITypeReasons</key>
+            <array>
+                <string>35F9.1</string> <!-- 合法理由：测量会议事件时间间隔 -->
             </array>
         </dict>
     </array>
