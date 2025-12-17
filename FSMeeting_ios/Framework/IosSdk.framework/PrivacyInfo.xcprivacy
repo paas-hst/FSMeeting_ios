@@ -2,84 +2,20 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-    <!-- 跟踪透明度开关：未跟踪用户数据（false），若有跟踪行为需改为true并补充声明 -->
     <key>NSPrivacyTracking</key>
     <false/>
-    
-    <!-- 收集的数据类型声明（合并重复项，明确用途与理由对应） -->
+    <key>NSPrivacyTrackingDomains</key>
+    <array/>
     <key>NSPrivacyCollectedDataTypes</key>
-    <array>
-        <!-- 摄像头：用户主动拍摄照片/视频（如会议视频采集、内容创作） -->
-        <dict>
-            <key>NSPrivacyCollectedDataType</key>
-            <string>NSPrivacyCollectedDataTypeCamera</string>
-            <key>NSPrivacyCollectedDataPurpose</key>
-            <array>
-                <string>C617.1</string> <!-- 官方合法理由：实时通信/视频录制 -->
-            </array>
-        </dict>
-        
-        <!-- 麦克风：语音输入/录音（如会议语音通话、语音指令） -->
-        <dict>
-            <key>NSPrivacyCollectedDataType</key>
-            <string>NSPrivacyCollectedDataTypeMicrophone</string>
-            <key>NSPrivacyCollectedDataPurpose</key>
-            <array>
-                <string>C617.2</string> <!-- 官方合法理由：实时音频通信/语音录制 -->
-            </array>
-        </dict>
-        
-        <!-- 本地网络：局域网设备发现与通信（如会议投屏、本地设备互联） -->
-        <dict>
-            <key>NSPrivacyCollectedDataType</key>
-            <string>NSPrivacyCollectedDataTypeLocalNetwork</string>
-            <key>NSPrivacyCollectedDataPurpose</key>
-            <array>
-                <string>C617.5</string> <!-- 官方合法理由：本地设备间数据传输 -->
-            </array>
-        </dict>
-        
-        <!-- 用户媒体（合并相册访问/添加功能，避免重复） -->
-        <dict>
-            <key>NSPrivacyCollectedDataType</key>
-            <string>NSPrivacyCollectedDataTypeUserMedia</string>
-            <key>NSPrivacyCollectedDataPurpose</key>
-            <array>
-                <string>C617.3</string> <!-- 官方合法理由：读取相册内容/保存内容到相册 -->
-            </array>
-        </dict>
-        
-        <!-- 通讯录：联系人同步/地址选择（如会议邀请联系人、地址簿匹配） -->
-        <dict>
-            <key>NSPrivacyCollectedDataType</key>
-            <string>NSPrivacyCollectedDataTypeContacts</string>
-            <key>NSPrivacyCollectedDataPurpose</key>
-            <array>
-                <string>C617.4</string> <!-- 官方合法理由：联系人信息查询/邀请 -->
-            </array>
-        </dict>
-    </array>
-    
-    <!-- 访问的需说明理由API（修正分类+理由匹配） -->
+    <array/>
     <key>NSPrivacyAccessedAPITypes</key>
     <array>
-        <!-- 系统照片库API：读取/写入相册（修正分类+合法理由） -->
         <dict>
             <key>NSPrivacyAccessedAPIType</key>
-            <string>NSPrivacyAccessedAPICategorySystemPhotoLibrary</string> <!-- 官方合法分类 -->
+            <string>NSPrivacyAccessedAPICategoryFileTimestamp</string>
             <key>NSPrivacyAccessedAPITypeReasons</key>
             <array>
-                <string>CA92.1</string> <!-- 官方合法理由：用户主动操作照片库媒体文件 -->
-            </array>
-        </dict>
-        
-        <!-- 联系人API：读取/操作通讯录（修正合法理由） -->
-        <dict>
-            <key>NSPrivacyAccessedAPIType</key>
-            <string>NSPrivacyAccessedAPICategoryContacts</string> <!-- 合法分类 -->
-            <key>NSPrivacyAccessedAPITypeReasons</key>
-            <array>
-                <string>CA92.2</string> <!-- 官方合法理由：用户主动选择联系人信息 -->
+                 <string>C617.1</string>
             </array>
         </dict>
         <dict>
@@ -87,7 +23,23 @@
             <string>NSPrivacyAccessedAPICategorySystemBootTime</string>
             <key>NSPrivacyAccessedAPITypeReasons</key>
             <array>
-                <string>35F9.1</string> <!-- 合法理由：测量会议事件时间间隔 -->
+                 <string>35F9.1</string>
+            </array>
+        </dict>
+        <dict>
+            <key>NSPrivacyAccessedAPIType</key>
+            <string>NSPrivacyAccessedAPICategoryDiskSpace</string>
+            <key>NSPrivacyAccessedAPITypeReasons</key>
+            <array>
+                 <string>E174.1</string>
+            </array>
+        </dict>
+        <dict>
+            <key>NSPrivacyAccessedAPIType</key>
+            <string>NSPrivacyAccessedAPICategoryUserDefaults</string>
+            <key>NSPrivacyAccessedAPITypeReasons</key>
+            <array>
+                 <string>CA92.1</string>
             </array>
         </dict>
     </array>

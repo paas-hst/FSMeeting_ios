@@ -4,65 +4,18 @@
 <dict>
     <key>NSPrivacyTracking</key>
     <false/>
+    <key>NSPrivacyTrackingDomains</key>
+    <array/>
     <key>NSPrivacyCollectedDataTypes</key>
-    <array>
-        <dict>
-            <key>NSPrivacyCollectedDataType</key>
-            <string>NSPrivacyCollectedDataTypeCamera</string>
-            <key>NSPrivacyCollectedDataPurpose</key>
-            <array>
-                <string>C617.1</string>
-            </array>
-        </dict>
-        <dict>
-            <key>NSPrivacyCollectedDataType</key>
-            <string>NSPrivacyCollectedDataTypeMicrophone</string>
-            <key>NSPrivacyCollectedDataPurpose</key>
-            <array>
-                <string>C617.2</string>
-            </array>
-        </dict>
-        <dict>
-            <key>NSPrivacyCollectedDataType</key>
-            <string>NSPrivacyCollectedDataTypeLocalNetwork</string>
-            <key>NSPrivacyCollectedDataPurpose</key>
-            <array>
-                <string>C617.5</string>
-            </array>
-        </dict>
-        <dict>
-            <key>NSPrivacyCollectedDataType</key>
-            <string>NSPrivacyCollectedDataTypeUserMedia</string>
-            <key>NSPrivacyCollectedDataPurpose</key>
-            <array>
-                <string>C617.3</string>
-            </array>
-        </dict>
-        <dict>
-            <key>NSPrivacyCollectedDataType</key>
-            <string>NSPrivacyCollectedDataTypeContacts</string>
-            <key>NSPrivacyCollectedDataPurpose</key>
-            <array>
-                <string>C617.4</string>
-            </array>
-        </dict>
-    </array>
+    <array/>
     <key>NSPrivacyAccessedAPITypes</key>
     <array>
         <dict>
             <key>NSPrivacyAccessedAPIType</key>
-            <string>NSPrivacyAccessedAPICategorySystemPhotoLibrary</string>
+            <string>NSPrivacyAccessedAPICategoryFileTimestamp</string>
             <key>NSPrivacyAccessedAPITypeReasons</key>
             <array>
-                <string>CA92.1</string>
-            </array>
-        </dict>
-        <dict>
-            <key>NSPrivacyAccessedAPIType</key>
-            <string>NSPrivacyAccessedAPICategoryContacts</string>
-            <key>NSPrivacyAccessedAPITypeReasons</key>
-            <array>
-                <string>CA92.2</string>
+                 <string>C617.1</string>
             </array>
         </dict>
         <dict>
@@ -70,7 +23,23 @@
             <string>NSPrivacyAccessedAPICategorySystemBootTime</string>
             <key>NSPrivacyAccessedAPITypeReasons</key>
             <array>
-                <string>35F9.1</string> <!-- 合法理由：测量会议事件时间间隔 -->
+                 <string>35F9.1</string>
+            </array>
+        </dict>
+        <dict>
+            <key>NSPrivacyAccessedAPIType</key>
+            <string>NSPrivacyAccessedAPICategoryDiskSpace</string>
+            <key>NSPrivacyAccessedAPITypeReasons</key>
+            <array>
+                 <string>E174.1</string>
+            </array>
+        </dict>
+        <dict>
+            <key>NSPrivacyAccessedAPIType</key>
+            <string>NSPrivacyAccessedAPICategoryUserDefaults</string>
+            <key>NSPrivacyAccessedAPITypeReasons</key>
+            <array>
+                 <string>CA92.1</string>
             </array>
         </dict>
     </array>
